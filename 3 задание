@@ -1,0 +1,14 @@
+{заводим массив на 15 элементов.заполняем массив, и выводим 
+элементы, переставляя с 3 по 9 в обратном порядке.}
+var n,a,flag,i:integer;
+mas:array [1..15] of integer;{испр. т.к. массив состоит из 15 элементов}
+begin
+for i:=1 to 15 do
+readln(mas[i]);
+for i:=1 to 2 do
+writeln(mas[i]);
+for i:=9 downto 3 do {испр. т.к. нужно вывести числа в обратном порядке}
+writeln(mas[i]);
+for i:=10 to 15 do {испр. т.к. элементов 15}
+writeln(mas[i]);
+end.
